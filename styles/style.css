@@ -227,3 +227,21 @@ cursor: pointer;
     margin: 50px 0 50px 0;
     justify-content: space-between;
 }
+/* some end */
+footer{
+    background-color: #0D1B2A;
+}
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(216, 214, 214);
+    padding: 50px 0;
+    
+}
+.fonte i{
+    padding: 10px;
+    font-size: 20px;
+}
+/* footer end */

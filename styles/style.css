@@ -39,7 +39,7 @@ nav{
     color: #575757;
 
 }
-.common-btn button,.banner-text button{
+.common-btn button,.banner-text button,.sec-btn{
     background-color: #1D4ED8;
     color: white;
     padding: 10px 20px;
@@ -119,12 +119,16 @@ cursor: pointer;
     border-radius: 7px;
 
 }
+.imge h5{
+    padding: 5px 0;
+}
 .imge-text{
     padding: 10px;
 }
 .para{
     color: #2563EB;
     font-weight: bold;
+    font-size: 12px;
 }
 .laste{
     color: #575757;
@@ -137,3 +141,89 @@ cursor: pointer;
      margin-bottom: 40px;
 }
 /* speaker section end */
+/* Secure your spot start */
+.secure{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.three-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 140px 30px 140px;
+    
+}
+.sec-hed{
+    justify-content: center;
+    text-align: center;
+    margin: 4%;
+}
+.sec-hed p{
+    color: #575757;
+    padding: 10px;
+}
+.card{
+    border: 1px solid rgb(192, 190, 190);
+    padding: 20px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.card ul{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card ul li::marker {
+    color:#2563EB;
+  
+}
+
+.card ul li {
+    color:#333333;
+    font-size: 14px;
+    padding: 5px;
+}
+.para-1,.para-2{
+    color: #575757;
+    
+}
+.para-2{
+    padding: 5px 0 10px 0;
+}
+.card h2{
+    padding-top: 5px;
+}
+.card button{
+    width: 100%;
+}
+.midee{
+    background-color: #0D1B2A;
+}
+.midee h2 {
+    color: white;
+
+}
+.mideee{
+    color: rgb(221, 219, 219);
+}
+.midee ul li{
+    color: rgb(207, 206, 206);
+}
+.nil{
+    color: #93b3f7;
+}
+/* end secure */
+/* some start */
+.some{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.something{
+    
+    display: flex;
+    margin: 50px 0 50px 0;
+    justify-content: space-between;
+}
